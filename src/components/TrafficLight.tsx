@@ -9,7 +9,7 @@ function TrafficLight() {
     setTimeout(() => {
       setState("yellow");
     }, 5000);
-  });
+  }, []);
 
   return (
     <div className="flex flex-col gap-5 border-2 border-black p-2 rounded-lg bg-gray-800">
